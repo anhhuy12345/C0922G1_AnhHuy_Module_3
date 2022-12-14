@@ -28,8 +28,3 @@ set SQL_SAFE_UPDATES = 0;
 update teacher set name = 'Huy' where id = 2;
 -- xoa phan tu
 delete from teacher where id = 1;
-
-
-
-
-
