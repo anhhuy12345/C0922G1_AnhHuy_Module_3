@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71885aa7-8eee-432f-b8d3-f7de7e8e5a66" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CaseStudy/data.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseStudy/mohinh.mwb" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/mohinh.mwb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseStudy/mohinh.mwb.bak" beforeDir="false" />
-    </list>
+    <list default="true" id="71885aa7-8eee-432f-b8d3-f7de7e8e5a66" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +33,7 @@
       <updated>1670988872295</updated>
       <workItem from="1670988877333" duration="16000" />
       <workItem from="1671010519996" duration="595000" />
+      <workItem from="1671206156678" duration="27000" />
     </task>
     <servers />
   </component>
