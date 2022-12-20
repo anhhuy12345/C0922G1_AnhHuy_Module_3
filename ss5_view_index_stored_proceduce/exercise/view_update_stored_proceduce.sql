@@ -51,7 +51,7 @@ delimiter //
 create procedure thong_tin_all_product ()
 begin 
 select * from product;
-end;
+end
 // delimiter ;
 -- gọi produce
 call thong_tin_all_product();
@@ -62,7 +62,7 @@ create procedure add_product (`product_code` varchar(25), `product_name` varchar
 begin 
 insert into `products`.`product` (`product_code`, `product_name`, `product_price`, `product_amount`, `product_description`, `product_status`) 
 values (`product_code`, `product_name`, `product_price`, `product_amount`, `product_description`, `product_status`);
-end;
+end
 // delimiter ;
 -- drop procedure add_product;
 -- gọi produce
@@ -81,7 +81,7 @@ update product set
     product_description = product_description_edit,
     product_status =product_status_edit
     where id = id_edit;
-end;
+end
 // delimiter ;
 
 call update_theo_id (2, "a6", "banh mi sua", 300, 1, "sua ong tho", 1);
@@ -92,8 +92,8 @@ delimiter //
 create procedure delete_product (id_delete int)
 begin
 delete from product where product.id = id_delete;
-end;
+end
 // delimiter ;
 
 call delete_product(3);
-call thong_tin_all_product();
+
