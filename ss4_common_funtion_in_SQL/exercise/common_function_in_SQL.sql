@@ -14,6 +14,6 @@ where `mark`.mark >= all (select mark from `mark`)
 -- Hiển thị các thông tin sinh viên và điểm trung bình của mỗi sinh viên, xếp hạng theo thứ tự điểm giảm dần
 select student.*, avg(mark.mark) as diem_trung_binh from student
 join mark on student.student_id = mark.student_id
-group by student.student_id
+group by student.student_idg
 order by avg(mark.mark) desc
 ;

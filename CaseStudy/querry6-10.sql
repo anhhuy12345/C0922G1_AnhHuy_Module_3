@@ -7,7 +7,7 @@ select dich_vu.ma_dich_vu, dich_vu.ten_dich_vu, dich_vu.dien_tich, dich_vu.chi_p
 from dich_vu
 join loai_dich_vu on dich_vu.ma_loai_dich_vu = loai_dich_vu.ma_loai_dich_vu
 join hop_dong on hop_dong.ma_dich_vu = dich_vu.ma_dich_vu
-where hop_dong.ngay_lam_hop_dong between "2021-01-01" and "2021-03-31"
+where quarter(hop_dong.ngay_lam_hop_dong)=1; 
 ;
 
 -- 7.	Hiển thị thông tin ma_dich_vu, ten_dich_vu, dien_tich, so_nguoi_toi_da, chi_phi_thue, ten_loai_dich_vu

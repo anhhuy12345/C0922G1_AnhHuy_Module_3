@@ -7,6 +7,8 @@ use furama_resort;
   or substring_index(ho_ten, " ", -1) like 'K%'
   and length(ho_ten)<=15 ;
   
+ -- test hàm lenght: select length(ho_ten) from nhan_vien where ho_ten= "Tòng Hoang";
+  
   -- cách 2 xuất toàn bộ khách có tên bắt đầu bằng H hoặc T hoặc K và có tối đa 15 kí tự dùng regexP
   select * from nhan_vien where( substring_index(ho_ten, " ", -1)rlike '^[H|K|T]' and char_length(ho_ten) <= 15);
  
@@ -24,7 +26,7 @@ join hop_dong on khach_hang.ma_khach_hang = hop_dong.ma_khach_hang
 join loai_khach on loai_khach.ma_loai_khach = khach_hang.ma_loai_khach
 where loai_khach.ten_loai_khach = "Diamond"
 group by hop_dong.ma_khach_hang 
-order by count(hop_dong.ma_khach_hang)
+order by count(hop_dong.ma_khach_hang);
 
 -- 5 Hiển thị ma_khach_hang, ho_ten, ten_loai_khach, ma_hop_dong, ten_dich_vu, ngay_lam_hop_dong, ngay_ket_thuc, 
 -- tong_tien (Với tổng tiền được tính theo công thức như sau: Chi Phí Thuê + Số Lượng * Giá, với Số Lượng và Giá là từ bảng dich_vu_di_kem, hop_dong_chi_tiet) 

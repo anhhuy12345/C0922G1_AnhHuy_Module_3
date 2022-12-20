@@ -4,6 +4,7 @@ use furama_resort;
 insert into vi_tri (ma_vi_tri, ten_vi_tri) values
 	(1, 'Quản Lý'),
 	(2, 'Nhân Viên');
+
     
 insert into trinh_do (ma_trinh_do, ten_trinh_do) values
 	('1', 'Trung Cấp'),
