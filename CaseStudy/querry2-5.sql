@@ -5,7 +5,7 @@ use furama_resort;
   where substring_index(ho_ten, " ", -1) like 'H%' 
   or  substring_index(ho_ten, " ", -1) like 'T%'
   or substring_index(ho_ten, " ", -1) like 'K%'
-  and length(ho_ten)<=15 ;
+  and char_length(ho_ten)<=15 ;
   
  -- test hàm lenght: select length(ho_ten) from nhan_vien where ho_ten= "Tòng Hoang";
   
