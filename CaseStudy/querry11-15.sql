@@ -64,6 +64,7 @@ order by hop_dong.ma_hop_dong
 
 -- 15.	Hiển thi thông tin của tất cả nhân viên bao gồm ma_nhan_vien, ho_ten, ten_trinh_do, ten_bo_phan, so_dien_thoai
 -- , dia_chi mới chỉ lập được tối đa 3 hợp đồng từ năm 2020 đến 2021.
+SET sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));
 select nhan_vien.ma_nhan_vien, nhan_vien.ho_ten as ho_ten_nhan_vien, trinh_do.ma_trinh_do, bo_phan.ten_bo_phan
 , nhan_vien.so_dien_thoai, nhan_vien.dia_chi
 from nhan_vien

@@ -17,10 +17,10 @@ having count(hop_dong.ma_nhan_vien) > 0
 select * from v_nhan_vien;
 
 -- 22.	Thông qua khung nhìn v_nhan_vien thực hiện cập nhật địa chỉ thành “Liên Chiểu” đối với tất cả các nhân viên được nhìn thấy bởi khung nhìn này.
-
+set sql_safe_updates = 0;
 update nhan_vien set nhan_vien.dia_chi = "Liên Chiểu"
 where nhan_vien.ma_nhan_vien in (select v_nhan_vien.ma_nhan_vien from v_nhan_vien);
-select * from v_nhan_vien;
+select * from v_nhan_vien; 
 
 -- 23.	Tạo Stored Procedure sp_xoa_khach_hang dùng để xóa thông tin của một khách hàng nào đó 
 -- với ma_khach_hang được truyền vào như là 1 tham số của sp_xoa_khach_hang.
@@ -67,11 +67,11 @@ on hop_dong for each row
 begin
 declare tong_so_luong_ban_ghi_con_lai int;
 set tong_so_luong_ban_ghi_con_lai =  (select count(hop_dong.ma_hop_dong) from hop_dong);
-insert into tong_so_luong_ban_ghi_con_lai
-end
-// delimiter ;
+end 
+//delimiter ;
 
 -- check
--- SET FOREIGN_KEY_CHECKS=0;
--- delete from hop_dong where (hop_dong.ma_hop_dong = 11);
+SET FOREIGN_KEY_CHECKS=0;
+delete from hop_dong where (hop_dong.ma_hop_dong = 11);
+select * from hop_dong
  
