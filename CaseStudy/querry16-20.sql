@@ -3,13 +3,13 @@ use furama_resort;
 -- 16.	Xóa những Nhân viên chưa từng lập được hợp đồng nào từ năm 2019 đến năm 2021.
 -- join 2 bảng nhân viên và hợp đồng
 -- hiểnt hị những người chưa lập hợp đồng
-select nhan_vien.ma_nhan_vien, nhan_vien.ho_ten
-from nhan_vien
-where nhan_vien.ma_nhan_vien not in (
-select hop_dong.ma_nhan_vien
-from hop_dong
-where (year(hop_dong.ngay_lam_hop_dong) like "2019,2020,2021") 
-);
+-- select nhan_vien.ma_nhan_vien, nhan_vien.ho_ten
+-- from nhan_vien
+-- where nhan_vien.ma_nhan_vien not in (
+-- select hop_dong.ma_nhan_vien
+-- from hop_dong
+-- where (year(hop_dong.ngay_lam_hop_dong) like "2019,2020,2021") 
+-- );
 -- xoá 5 người trên
 delete from nhan_vien 
 where nhan_vien.ma_nhan_vien not in (

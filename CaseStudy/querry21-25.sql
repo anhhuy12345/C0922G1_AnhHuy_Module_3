@@ -59,6 +59,13 @@ call sp_them_moi_hop_dong();
 -- thì hiển thị tổng số lượng bản ghi còn lại có trong bảng hop_dong ra giao diện console của database.
 -- Lưu ý: Đối với MySQL thì sử dụng SIGNAL hoặc ghi log thay cho việc ghi ở console.
 
+create table if not exists `history`(
+ma_hop_dong int,
+ngay_lam_hop_dong datetime,
+ngay_ket_thuc datetime,
+ngay_xoa datetime
+);
+
 drop trigger if exists tr_xoa_hop_dong;
 delimiter //
 create trigger tr_xoa_hop_dong
@@ -67,11 +74,14 @@ on hop_dong for each row
 begin
 declare tong_so_luong_ban_ghi_con_lai int;
 set tong_so_luong_ban_ghi_con_lai =  (select count(hop_dong.ma_hop_dong) from hop_dong);
+insert into `history`(ma_hop_dong, ngay_lam_hop_dong, ngay_ket_thuc, ngay_xoa ) values(old.ma_hop_dong, old.ngay_lam_hop_dong, old.ngay_ket_thuc, now());
 end 
 //delimiter ;
 
 -- check
 SET FOREIGN_KEY_CHECKS=0;
-delete from hop_dong where (hop_dong.ma_hop_dong = 11);
-select * from hop_dong
+delete from hop_dong where (hop_dong.ma_hop_dong = 9);
+select * from history;
+select * from hop_dong;
+
  
