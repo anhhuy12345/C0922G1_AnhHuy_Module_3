@@ -23,17 +23,18 @@ left join khach_hang on khach_hang.ma_khach_hang = hop_dong.ma_khach_hang
 left join dich_vu on hop_dong.ma_dich_vu = dich_vu.ma_dich_vu
 left join hop_dong_chi_tiet on hop_dong_chi_tiet.ma_hop_dong = hop_dong.ma_hop_dong
 -- của tất cả các dịch vụ đã từng được khách hàng đặt vào 3 tháng cuối năm 2020 
-where hop_dong.ngay_lam_hop_dong between "2020-10-01" and "2020-12-31"
+where quarter(hop_dong.ngay_lam_hop_dong) = 4 and year(hop_dong.ngay_lam_hop_dong) = 2020
 -- nhưng chưa từng được khách hàng đặt vào 6 tháng đầu năm 2021.
 and hop_dong.ngay_lam_hop_dong not in (
 select hop_dong.ngay_lam_hop_dong
 from hop_dong
 join dich_vu on dich_vu.ma_dich_vu = hop_dong.ma_dich_vu
--- của tất cả các dịch vụ đã từng được khách hàng đặt vào 3 tháng cuối năm 2020
-where hop_dong.ngay_lam_hop_dong between "2021-01-01" and "2021-06-30"
+
+where quarter(hop_dong.ngay_lam_hop_dong) in (1,2) and year(hop_dong.ngay_lam_hop_dong) = "2021" 
 )
 group by hop_dong.ma_hop_dong
 ;
+
 
 -- 13.	Hiển thị thông tin các Dịch vụ đi kèm được sử dụng nhiều nhất bởi các Khách hàng đã đặt phòng. 
 -- (Lưu ý là có thể có nhiều dịch vụ có số lần sử dụng nhiều như nhau).
@@ -41,7 +42,7 @@ select dich_vu_di_kem.ma_dich_vu_di_kem, dich_vu_di_kem.ten_dich_vu_di_kem,  sum
 from dich_vu_di_kem
 join hop_dong_chi_tiet on dich_vu_di_kem.ma_dich_vu_di_kem = hop_dong_chi_tiet.ma_dich_vu_di_kem
 group by hop_dong_chi_tiet.ma_dich_vu_di_kem
-having sum(hop_dong_chi_tiet.so_luong)>=all (
+having sum(hop_dong_chi_tiet.so_luong) >= all (
 select sum(hop_dong_chi_tiet.so_luong) from hop_dong_chi_tiet
 group by hop_dong_chi_tiet.ma_dich_vu_di_kem
 )
@@ -64,7 +65,7 @@ order by hop_dong.ma_hop_dong
 
 -- 15.	Hiển thi thông tin của tất cả nhân viên bao gồm ma_nhan_vien, ho_ten, ten_trinh_do, ten_bo_phan, so_dien_thoai
 -- , dia_chi mới chỉ lập được tối đa 3 hợp đồng từ năm 2020 đến 2021.
-SET sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));
+ SET sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));
 select nhan_vien.ma_nhan_vien, nhan_vien.ho_ten as ho_ten_nhan_vien, trinh_do.ma_trinh_do, bo_phan.ten_bo_phan
 , nhan_vien.so_dien_thoai, nhan_vien.dia_chi
 from nhan_vien

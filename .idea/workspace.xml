@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="71885aa7-8eee-432f-b8d3-f7de7e8e5a66" name="Default Changelist" comment="" />
+    <list default="true" id="71885aa7-8eee-432f-b8d3-f7de7e8e5a66" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/querry11-15.sql" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/querry11-15.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss6_css/UseCss.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss6_css/UseCss.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +34,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -23,11 +47,22 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Codegym\C0922G1_LeTranAnhHuy_module_3\ss6_css\exercise" />
+      <recent name="E:\Codegym\C0922G1_LeTranAnhHuy_module_3\ss6_css\exercise\CssInHtml" />
+      <recent name="E:\Codegym\C0922G1_LeTranAnhHuy_module_3\ss6_css\exercise\Manga" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -46,10 +81,66 @@
       <workItem from="1671593580814" duration="4263000" />
       <workItem from="1671614070274" duration="6000" />
       <workItem from="1671617046114" duration="2000" />
+      <workItem from="1671672413399" duration="5840000" />
+      <workItem from="1671702279064" duration="8338000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="427" y="48" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1671701689981">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="427" y="48" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1671701689981" />
+    <state x="516" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1671702409225">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="516" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.816@0.0.1536.816" timestamp="1671702409225" />
+    <state width="1218" height="207" key="GridCell.Tab.0.bottom" timestamp="1671702305295">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1218" height="207" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1671702305295" />
+    <state width="1218" height="207" key="GridCell.Tab.0.center" timestamp="1671702305295">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1218" height="207" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1671702305295" />
+    <state width="1218" height="207" key="GridCell.Tab.0.left" timestamp="1671702305295">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1218" height="207" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1671702305295" />
+    <state width="1218" height="207" key="GridCell.Tab.0.right" timestamp="1671702305295">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1218" height="207" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1671702305295" />
+    <state width="198" height="452" key="HiddenNamespacesPopup" timestamp="1671701707318">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="198" height="452" key="HiddenNamespacesPopup/0.0.1536.816@0.0.1536.816" timestamp="1671701707318" />
+    <state x="285" y="54" key="SettingsEditor" timestamp="1671770058594">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="285" y="54" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1671770058594" />
+    <state x="612" y="183" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1671701906569">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="612" y="183" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.816@0.0.1536.816" timestamp="1671701906569" />
+    <state x="425" y="185" key="run.anything.popup" timestamp="1671701989097">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="425" y="185" key="run.anything.popup/0.0.1536.816@0.0.1536.816" timestamp="1671701989097" />
   </component>
 </project>
