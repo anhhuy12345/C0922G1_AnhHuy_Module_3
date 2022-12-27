@@ -21,7 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="71885aa7-8eee-432f-b8d3-f7de7e8e5a66" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss7_web_design/Exercise/WebCartoon/CreateLayout.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss7_web_design/Exercise/WebCartoon/CreateLayout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss8_bootstrap/exercise/LandingPage/LandingPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss8_bootstrap/exercise/LandingPage/LandingPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss8_bootstrap/exercise/samplebootstrap/SampleBootstrap.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss8_bootstrap/exercise/samplebootstrap/SampleBootstrap.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +32,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -88,7 +89,8 @@
       <workItem from="1671672413399" duration="5840000" />
       <workItem from="1671702279064" duration="8338000" />
       <workItem from="1671861935053" duration="6961000" />
-      <workItem from="1672029835597" duration="17280000" />
+      <workItem from="1672029835597" duration="18498000" />
+      <workItem from="1672111558116" duration="7463000" />
     </task>
     <servers />
   </component>
