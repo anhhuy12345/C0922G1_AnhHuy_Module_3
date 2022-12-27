@@ -20,27 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71885aa7-8eee-432f-b8d3-f7de7e8e5a66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss7_web_design/Exercise/WebCartoon/image/322ea7b0a16881fa5faadc259dde8d36_pokemon-season-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss7_web_design/Exercise/WebCartoon/image/B53FLhmA.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss7_web_design/Exercise/WebCartoon/image/Dragon_Ball_Super.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss7_web_design/Exercise/WebCartoon/image/MV5BYjY4MDU2YjMtNzY1MC00ODg1LWIwMzYtMWE5YTA3YTI4ZjMxXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss7_web_design/Exercise/WebCartoon/image/Mahouka-Koukou-no-Rettousei.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss7_web_design/Exercise/WebCartoon/image/Nanatsu-no-Taizai-Thất-Hình-Đại-Tội-Truyenz.info_-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss7_web_design/Exercise/WebCartoon/image/Naruto.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss7_web_design/Exercise/WebCartoon/image/bg_header_2017.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss7_web_design/Exercise/WebCartoon/image/black-clover.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss7_web_design/Exercise/WebCartoon/image/chuyen-sinh-thanh-slime.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss7_web_design/Exercise/WebCartoon/image/da9307c9e00badb5c68244f0866f5692.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss7_web_design/Exercise/WebCartoon/image/fairy-tail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss7_web_design/Exercise/WebCartoon/image/iruma-kun.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss7_web_design/Exercise/WebCartoon/image/keyvisual_for_promotion-01_1_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss7_web_design/Exercise/WebCartoon/image/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss7_web_design/Exercise/WebCartoon/image/logo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss7_web_design/Exercise/WebCartoon/image/logo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss7_web_design/Exercise/WebCartoon/image/pUfbLgO.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss7_web_design/Exercise/WebCartoon/image/tải xuống.jfif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss6_css/exercise/Manga/ReadManga.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss6_css/exercise/Manga/ReadManga.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss7_web_design/Exercise/WebCartoon/CreateLayout.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss7_web_design/Exercise/WebCartoon/CreateLayout.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +54,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ss7_web_design/WebCartoon" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -106,7 +88,7 @@
       <workItem from="1671672413399" duration="5840000" />
       <workItem from="1671702279064" duration="8338000" />
       <workItem from="1671861935053" duration="6961000" />
-      <workItem from="1672029835597" duration="7875000" />
+      <workItem from="1672029835597" duration="17280000" />
     </task>
     <servers />
   </component>
@@ -162,9 +144,9 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="612" y="183" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.816@0.0.1536.816" timestamp="1671701906569" />
-    <state x="425" y="185" key="run.anything.popup" timestamp="1671701989097">
+    <state x="425" y="185" key="run.anything.popup" timestamp="1672065044549">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="425" y="185" key="run.anything.popup/0.0.1536.816@0.0.1536.816" timestamp="1671701989097" />
+    <state x="425" y="185" key="run.anything.popup/0.0.1536.816@0.0.1536.816" timestamp="1672065044549" />
   </component>
 </project>
