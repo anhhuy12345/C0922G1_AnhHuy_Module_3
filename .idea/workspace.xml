@@ -21,8 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="71885aa7-8eee-432f-b8d3-f7de7e8e5a66" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss8_bootstrap/exercise/LandingPage/LandingPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss8_bootstrap/exercise/LandingPage/LandingPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss8_bootstrap/exercise/samplebootstrap/SampleBootstrap.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss8_bootstrap/exercise/samplebootstrap/SampleBootstrap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss8_bootstrap/exercise/LandingPage/LandingTwo.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss8_bootstrap/exercise/LandingPage/LandingTwo.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -56,7 +55,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ss7_web_design/WebCartoon" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -68,6 +67,16 @@
       <recent name="E:\Codegym\C0922G1_LeTranAnhHuy_module_3\ss6_css\exercise\CssInHtml" />
       <recent name="E:\Codegym\C0922G1_LeTranAnhHuy_module_3\ss6_css\exercise\Manga" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CreateLayout.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Module3/ss7_web_design/Exercise/WebCartoon/CreateLayout.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.CreateLayout.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -90,7 +99,12 @@
       <workItem from="1671702279064" duration="8338000" />
       <workItem from="1671861935053" duration="6961000" />
       <workItem from="1672029835597" duration="18498000" />
-      <workItem from="1672111558116" duration="7463000" />
+      <workItem from="1672111558116" duration="12177000" />
+      <workItem from="1672133975561" duration="4506000" />
+      <workItem from="1672157673677" duration="13680000" />
+      <workItem from="1672213158195" duration="42000" />
+      <workItem from="1672213259872" duration="16000" />
+      <workItem from="1672236781288" duration="531000" />
     </task>
     <servers />
   </component>
@@ -114,10 +128,14 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="427" y="48" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1671701689981" />
-    <state x="516" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1672025683695">
+    <state x="516" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1672155322225">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="516" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.816@0.0.1536.816" timestamp="1672025683695" />
+    <state x="516" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.816@0.0.1536.816" timestamp="1672155322225" />
+    <state x="548" y="163" key="FileChooserDialogImpl" timestamp="1672285945672">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="548" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1672285945672" />
     <state width="1218" height="207" key="GridCell.Tab.0.bottom" timestamp="1671702305295">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -138,14 +156,18 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state width="198" height="452" key="HiddenNamespacesPopup/0.0.1536.816@0.0.1536.816" timestamp="1671701707318" />
-    <state x="285" y="54" key="SettingsEditor" timestamp="1671770058594">
+    <state x="285" y="54" key="SettingsEditor" timestamp="1672195537090">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="285" y="54" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1671770058594" />
+    <state x="285" y="54" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1672195537090" />
     <state x="612" y="183" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1671701906569">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="612" y="183" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.816@0.0.1536.816" timestamp="1671701906569" />
+    <state x="206" y="32" key="new project wizard" timestamp="1672285982775">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="206" y="32" key="new project wizard/0.0.1536.816@0.0.1536.816" timestamp="1672285982775" />
     <state x="425" y="185" key="run.anything.popup" timestamp="1672065044549">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
