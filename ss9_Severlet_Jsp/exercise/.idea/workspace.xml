@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f134a221-ef25-4f31-83ba-8abd1132944f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss8_bootstrap/exercise/LandingPage/LandingTwo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss8_bootstrap/exercise/LandingPage/LandingTwo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discountcaculator/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/discountcaculator/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discountcaculator/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/discountcaculator/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discountcaculator/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/discountcaculator/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discountcaculator/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/discountcaculator/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discountcaculator/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/discountcaculator/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discountcaculator/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/discountcaculator/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discountcaculator/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/discountcaculator/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discountcaculator/build/classes/java/main/CaculateDiscount.class" beforeDir="false" afterPath="$PROJECT_DIR$/discountcaculator/build/classes/java/main/CaculateDiscount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discountcaculator/build/libs/discountcaculator-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/discountcaculator/build/libs/discountcaculator-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discountcaculator/src/main/webapp/display.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/discountcaculator/src/main/webapp/display.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discountcaculator/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/discountcaculator/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +53,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ss10_JSTL/exercise/customer" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
   </component>
   <component name="RunManager">
@@ -130,6 +141,8 @@
       <option name="presentableId" value="Default" />
       <updated>1672285982806</updated>
       <workItem from="1672285986995" duration="2590000" />
+      <workItem from="1672382063338" duration="105000" />
+      <workItem from="1672387175967" duration="90000" />
     </task>
     <servers />
   </component>
@@ -145,10 +158,10 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="223" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1672286686922" />
-    <state x="548" y="152" key="FileChooserDialogImpl" timestamp="1672288580156">
+    <state x="548" y="152" key="FileChooserDialogImpl" timestamp="1672387214669">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="548" y="152" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1672288580156" />
+    <state x="548" y="152" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1672387214669" />
     <state width="1027" height="208" key="GridCell.Tab.0.bottom" timestamp="1672288600423">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
