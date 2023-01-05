@@ -13,7 +13,6 @@ import java.io.IOException;
 
 @WebServlet(name = "UserServlet", urlPatterns = "/user")
 public class UserSeverlet extends HttpServlet {
-
     IUserService userService = new UserService();
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -39,7 +38,6 @@ public class UserSeverlet extends HttpServlet {
         }
     }
 
-
     private void searchUser(HttpServletRequest request, HttpServletResponse response) {
         String country = request.getParameter("country");
         request.setAttribute("listUser", userService.searchUser(country));
@@ -58,19 +56,23 @@ public class UserSeverlet extends HttpServlet {
         String email = request.getParameter("email");
         String country = request.getParameter("country");
         User user = new User(id, name, email, country);
-        userService.updateUser(user);
-        try {
-            request.getRequestDispatcher("view/user/edit.jsp").forward(request, response);
-        } catch (ServletException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
+        boolean check = userService.updateUser(user);
+        String mess = "Chỉnh sửa thành công";
+        if (!check) {
+            mess = "Chỉnh sửa không thành công";
         }
+        request.setAttribute("mess", mess);
+        showFormEdit(request, response);
     }
 
     private void deleteUser(HttpServletRequest request, HttpServletResponse response) {
         int id = Integer.parseInt(request.getParameter("id"));
         boolean check = userService.deleteUser(id);
+        String mess = "Xoá thành công";
+        if (!check) {
+            mess = "Xoá không thành công";
+        }
+        request.setAttribute("mess", mess);
         showList(request, response);
     }
 
@@ -78,8 +80,13 @@ public class UserSeverlet extends HttpServlet {
         String name = request.getParameter("name");
         String email = request.getParameter("email");
         String country = request.getParameter("country");
-        userService.insertUser(new User(name, email, country));
-        showList(request, response);
+        boolean check = userService.insertUser(new User(name, email, country));
+        String mess = "Thêm mới thành công";
+        if (!check) {
+            mess = "Thêm mới không thành công";
+        }
+        request.setAttribute("mess", mess);
+        showFormCreate(request, response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -92,14 +99,14 @@ public class UserSeverlet extends HttpServlet {
                 showFormCreate(request, response);
                 break;
             case "edit":
-                showEditForm(request, response);
+                showFormEdit(request, response);
                 break;
             default:
                 showList(request, response);
         }
     }
 
-    private void showEditForm(HttpServletRequest request, HttpServletResponse response) {
+    private void showFormEdit(HttpServletRequest request, HttpServletResponse response) {
         int id = Integer.parseInt(request.getParameter("id"));
         request.setAttribute("user", userService.selectUser(id));
         try {
