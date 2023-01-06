@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class UserRepository implements IUserRepository {
-    private static final String FIND_ALL = "select * from users";
+    private static final String FIND_ALL = "select* from users order by `name`;";
     private static final String INSERT_INTO = "insert into users(`name`, email, country) values(?, ?, ?)";
     private static final String DELETE_USER = "call delete_user(?)";
     private static final String UPDATE_USERS_SQL = "call update_user(?, ?, ?, ?)";
