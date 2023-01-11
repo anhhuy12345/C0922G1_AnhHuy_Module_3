@@ -144,18 +144,21 @@
 
 
     </body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-            crossorigin="anonymous"></script>
+    <script src="jquery/jquery-3.5.1.min.js"></script>
+    <script src="datatables/js/jquery.dataTables.min.js"></script>
+    <script src="datatables/js/dataTables.bootstrap5.min.js"></script>
     <script>
         $(document).ready(function () {
             $('#tableCustomer').dataTable({
-                "dom": 'lrtip',
-                "lengthChange": false,
-                "pageLength": 6
+                dom: 'lrtip',
+                lengthChange: false,
+                pageLength: 10,
+                bInfo: false,
+                // "pagingType": 'full_numbers',
             });
         });
-
+    </script>
+<script>
         function showInfo(id, name) {
             document.getElementById("idCustomer").value = id;
             document.getElementById("nameCustomer").innerText = name;

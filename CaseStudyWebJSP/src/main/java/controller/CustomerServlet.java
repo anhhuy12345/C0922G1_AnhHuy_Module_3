@@ -141,19 +141,17 @@ public class CustomerServlet extends HttpServlet {
         Integer typeId = Integer.parseInt(request.getParameter("type"));
         String name = request.getParameter("name");
         String birthday = request.getParameter("birthday");
-
-
         Integer gender = Integer.parseInt(request.getParameter("gender"));
         String idCard = request.getParameter("idCard");
         String phone = request.getParameter("phone");
         String email = request.getParameter("email");
         String address = request.getParameter("address");
 
-
         Customer customer = new Customer(typeId, name, birthday, gender, idCard, phone, email, address);
         Map<String, String> errors = customerService.insertCustomer(customer);
         if (errors.isEmpty()) {
             request.setAttribute("mess", "thêm mới thành công");
+
         } else {
             // lấy lại những gì đã nhập
             request.setAttribute("type", typeId);
@@ -170,7 +168,7 @@ public class CustomerServlet extends HttpServlet {
             request.setAttribute("errors", errors);
         }
 
-        RequestDispatcher dispatcher = request.getRequestDispatcher("/view/customer/create.jsp");
+        RequestDispatcher dispatcher = request.getRequestDispatcher("/view/customer/list.jsp");
         try {
             dispatcher.forward(request, response);
         } catch (ServletException e) {
@@ -224,7 +222,7 @@ public class CustomerServlet extends HttpServlet {
             request.setAttribute("customerTypeList", customerTypeList);
         }
 
-        RequestDispatcher dispatcher = request.getRequestDispatcher("/view/customer/edit.jsp");
+        RequestDispatcher dispatcher = request.getRequestDispatcher("/view/customer/list.jsp");
         try {
             dispatcher.forward(request, response);
         } catch (ServletException e) {

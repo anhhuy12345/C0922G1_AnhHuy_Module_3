@@ -34,7 +34,7 @@
             <a class="navbar-brand text-light ps-5 click col-l-2" href="">Home</a>
             <a class="navbar-brand text-light click col-l-2" href="/employee">Employee</a>
             <a class="navbar-brand text-light click col-l-2" href="/customer">Customer</a>
-            <a class="navbar-brand text-light click col-l-2" href="">Service</a>
+            <a class="navbar-brand text-light click col-l-2" href="/service">Service</a>
             <a class="navbar-brand text-light click col-l-2" href="">Contract</a>
             <form class="d-flex m-0 col-l-2">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
